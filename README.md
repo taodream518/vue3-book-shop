@@ -1,4 +1,4 @@
-# ewshop
+# BookShop
 
 ## Project setup
 ```
