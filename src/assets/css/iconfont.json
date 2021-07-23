@@ -1,0 +1,65 @@
+{
+  "id": "1879638",
+  "name": "tabbar",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "68235",
+      "name": "分类",
+      "font_class": "cates",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "201222",
+      "name": "3.1购物车",
+      "font_class": "cart",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "201226",
+      "name": "3.1首页",
+      "font_class": "home",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "201228",
+      "name": "3.1我的",
+      "font_class": "profile",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "15291221",
+      "name": "分类",
+      "font_class": "cates-active",
+      "unicode": "e705",
+      "unicode_decimal": 59141
+    },
+    {
+      "icon_id": "15291226",
+      "name": "3.1我的",
+      "font_class": "profile-active",
+      "unicode": "e706",
+      "unicode_decimal": 59142
+    },
+    {
+      "icon_id": "15291227",
+      "name": "3.1首页",
+      "font_class": "home-active",
+      "unicode": "e707",
+      "unicode_decimal": 59143
+    },
+    {
+      "icon_id": "15291228",
+      "name": "3.1购物车",
+      "font_class": "cart-active",
+      "unicode": "e708",
+      "unicode_decimal": 59144
+    }
+  ]
+}

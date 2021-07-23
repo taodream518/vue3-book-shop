@@ -1,0 +1,31 @@
+@uri=https://api.shop.eduwork.cn
+@json=Content-Type: application/json
+
+### login
+post {{uri}}/api/auth/login
+{{json}}
+
+{
+  "email": "testabc@qq.com",
+  "password": "123456"
+}
+
+### login
+post {{uri}}/api/auth/register
+{{json}}
+
+{
+  "name":"testabc",
+  "email": "testabc@qq.com",
+  "password": "123456",
+  "password_confirmation":"123456"
+}
+
+### 取消收藏和收藏
+post {{uri}}/api/collects/goods/1599
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvYXBpLnNob3AuZWR1d29yay5jblwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYxNTk2MDE4NiwiZXhwIjoxNjE2MzIwMTg2LCJuYmYiOjE2MTU5NjAxODYsImp0aSI6Ik1qWmU3b3FEZk5KcXJnNlAiLCJzdWIiOjMxOSwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyJ9.fr9EcAB-EKWOiAEKtByvf7_iTJVxI7-P0ZkAenIDU7M
+{{json}}
+
+{
+  "goods": 1599
+}
