@@ -25,9 +25,9 @@ const test = {
 };
 // 线上环境
 const pro = {
-  host: "49.234.152.161", // 服务器ip地址或域名
-  password: "Cgb5683Hzq", // 密码，请勿将此密码上传至git服务器
-  catalog: "/www/wwwroot/ewshop", // 前端文件压缩目录
+  host: "", // 服务器ip地址或域名
+  password: "", // 密码，请勿将此密码上传至git服务器
+  catalog: "/www/wwwroot/bookshop", // 前端文件压缩目录
   port: 22, // 服务器ssh连接端口号
   username: "root", // ssh登录用户
   privateKey: null // 私钥，私钥与密码二选一
